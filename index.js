@@ -36,7 +36,6 @@ my;
 canvas.width = cw;
 canvas.height = ch;
 
-
 // now we are going to setup our function placeholders for the entire demo
 
 // get a random number within a range
