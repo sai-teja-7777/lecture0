@@ -36,6 +36,7 @@ my;
 canvas.width = cw;
 canvas.height = ch;
 
+
 // now we are going to setup our function placeholders for the entire demo
 
 // get a random number within a range
@@ -301,7 +302,7 @@ function reveal() {
   document.querySelector('#video').appendChild(ifrm);
 }
 var countDownDate = new Date("May 2, 2021 00:00:00").getTime();
-  var countDownDates = new Date("May 2, 2000 00:00:00").getTime();
+  var countDownDates = new Date("January 29, 2001 14:00:00").getTime();
   var x = setInterval(function() {
   var now = new Date().getTime();
   var distance = countDownDate - now;
